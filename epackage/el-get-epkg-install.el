@@ -1,1 +1,1 @@
-(require 'el-get-0loaddefs)
+(require 'el-get-epkg-0loaddefs)
