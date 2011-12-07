@@ -12,7 +12,7 @@
 (autoload 'el-get-checksum                      "el-get" "" t)
 
 (fmakunbound 'el-get-self-update)
-(defun el-get-self-update ()
+(defun el-get-self-update (&rest ignore)
   "Funtion el-get-self-update has been disabled. Use
 epackage.el interface to get updates.")
 
