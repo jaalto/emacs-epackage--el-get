@@ -40,4 +40,7 @@ Description: package manager to download and install Emacs extensions
  depend on, and finally call your own :post-init function for you to setup
  the extension. Or call it a package.
  .
- Start package manager with M-x el-get-install.
+ M-x el-get-list-packages List all known packages.
+ M-x el-get-install       Start package manager.
+ M-x el-get-remove        Remove package.
+ M-x el-get-update        Update a single package.
