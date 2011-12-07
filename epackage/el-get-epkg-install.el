@@ -13,7 +13,8 @@
 
 (fmakunbound 'el-get-self-update)
 (defun el-get-self-update (&rest ignore)
-  "Funtion el-get-self-update has been disabled. Use
-epackage.el interface to get updates.")
+  "Function disabled. Use epackage.el interface to fetch updates."
+  (interactive)
+  (message "el-get-self-update is disabled. Use epackage.el interface."))
 
 (provide 'el-get-epkg-install)
