@@ -1,3 +1,4 @@
+(provide 'el-get-epkg-0loaddefs)
 
 ;;;### (autoloads (el-get-checksum el-get-make-recipes el-get-cd
 ;;;;;;  el-get-self-update el-get-update-all el-get-version) "el-get"
@@ -36,4 +37,4 @@ Compute the checksum of the given package, and put it in the kill-ring
 \(fn PACKAGE)" t nil)
 
 ;;;***
-(provide 'el-get-epkg-0loaddefs)
+
