@@ -1,0 +1,43 @@
+Package: el-get
+Section: extensions
+License: WTFPL
+License-Text:
+ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+ .
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+ .
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+ <http://sam.zoy.org/wtfpl>
+Depends: emacs (>= 22)
+Status: unstable
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream:
+Upstream-Bugs: https://github.com/dimitri/el-get/issues
+Vcs-Type: git
+Vcs-Url: git://github.com/dimitri/el-get.git
+Vcs-Args:
+Vcs-Browser: https://github.com/dimitri/el-get
+Vcs-User:
+Vcs-Password:
+Homepage: https://github.com/dimitri/el-get
+Wiki: http://www.emacswiki.org/emacs/el-get.el
+Commentary:
+Description: Emacs package manager for Emacs Lisp Lisp (ELL)
+ Install and manage elisp code for Emacs. It supports lots of differents
+ types of sources and is able to install them, update them and remove them,
+ but more importantly it will init them for you.
+ .
+ That means it will require the features you need, load the necessary files,
+ set the Info paths so that C-h i shows the new documentation you now
+ depend on, and finally call your own :post-init function for you to setup
+ the extension. Or call it a package.
+ .
+ Start package manager with M-x el-get-install.
