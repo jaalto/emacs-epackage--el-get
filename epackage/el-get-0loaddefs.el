@@ -36,4 +36,4 @@ Compute the checksum of the given package, and put it in the kill-ring
 \(fn PACKAGE)" t nil)
 
 ;;;***
-(provide 'el-get-0loaddefs)
+(provide 'el-get-epkg-0loaddefs)

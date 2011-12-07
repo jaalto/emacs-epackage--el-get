@@ -3,4 +3,4 @@
 (dolist (file '("foo-lib.el" "foo.el"))
         (byte-compile-file file))
 
-(provide 'el-get-compile)
+(provide 'el-get-epkg-compile)
