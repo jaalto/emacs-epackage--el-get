@@ -35,7 +35,9 @@
 	   ;; Requires plenty of above
 	   "el-get-methods.el"
 	   "el-get.el"))
-  (if (file-exists-p file)
-      (byte-compile-file file)))
+  (let ((path (locate-library file)))
+    (if path
+	(byte-compile-file path)
+      (message "** Byte compile error. Not found: %s" file))))
 
 (provide 'el-get-epkg-compile)
