@@ -36,8 +36,13 @@
 	   "el-get-methods.el"
 	   "el-get.el"))
   (let ((path (locate-library file)))
-    (if path
-	(byte-compile-file path)
-      (message "** Byte compile error. Not found: %s" file))))
+    (cond
+     (path
+      (byte-compile-file path)
+      (if (and (boundp 'verbose)
+	       verbose)
+	  (message "Byte Compile %s" path))
+      (t
+       (message "** Byte compile error. Not found: %s" file))))))
 
 (provide 'el-get-epkg-compile)
