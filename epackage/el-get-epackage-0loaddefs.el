@@ -14,11 +14,6 @@ Performs update of all installed packages.
 
 \(fn)" t nil)
 
-(autoload 'el-get-self-update "el-get" "\
-Update el-get itself.  The standard recipe takes care of reloading the code.
-
-\(fn)" t nil)
-
 (autoload 'el-get-cd "el-get" "\
 Open dired in the package directory.
 
