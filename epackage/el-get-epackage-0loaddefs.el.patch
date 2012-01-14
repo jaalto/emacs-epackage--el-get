@@ -1,0 +1,19 @@
+ epackage/el-get-epackage-0loaddefs.el |    5 -----
+ 1 files changed, 0 insertions(+), 5 deletions(-)
+
+diff --git a/epackage/el-get-epackage-0loaddefs.el b/epackage/el-get-epackage-0loaddefs.el
+index 75b2c46..fd15a6d 100644
+--- a/epackage/el-get-epackage-0loaddefs.el
++++ b/epackage/el-get-epackage-0loaddefs.el
+@@ -14,11 +14,6 @@ Performs update of all installed packages.
+ 
+ \(fn)" t nil)
+ 
+-(autoload 'el-get-self-update "el-get" "\
+-Update el-get itself.  The standard recipe takes care of reloading the code.
+-
+-\(fn)" t nil)
+-
+ (autoload 'el-get-cd "el-get" "\
+ Open dired in the package directory.
+ 
