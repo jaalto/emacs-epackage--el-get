@@ -30,6 +30,11 @@ Vcs-Password:
 Homepage: https://github.com/dimitri/el-get
 Wiki: http://www.emacswiki.org/emacs/el-get.el
 Commentary:
+X-Development:
+ Disable el-get-self-update because epackage is used to
+ handle updates. See eackage/*.patch that must be applied after every
+ loaddefs file generation to remove el-get-self-update form the list
+ of autoloaded functions.
 Description: package manager to download and install Emacs extensions
  Install and manage elisp code for Emacs. It supports lots of differents
  types of sources and is able to install them, update them and remove them,
