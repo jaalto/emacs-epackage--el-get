@@ -23,10 +23,7 @@ Upstream:
 Upstream-Bugs: https://github.com/dimitri/el-get/issues
 Vcs-Type: git
 Vcs-Url: git://github.com/dimitri/el-get.git
-Vcs-Args:
 Vcs-Browser: https://github.com/dimitri/el-get
-Vcs-User:
-Vcs-Password:
 Homepage: https://github.com/dimitri/el-get
 Wiki: http://www.emacswiki.org/emacs/el-get.el
 Commentary:
