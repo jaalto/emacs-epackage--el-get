@@ -2,9 +2,4 @@
 ;;
 ;; yasnippet recipe fails to install
 
-(let ((debug-on-error t)
-      ;; (el-get-byte-compile nil)
-      (el-get-verbose t))
-  (require 'el-get)
-  (el-get 'sync 'yasnippet))
-
+;; This test was redundant: see el-get-issue-176.el instead
