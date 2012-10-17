@@ -11,10 +11,12 @@
 (autoload 'el-get-make-recipes                  "el-get" "" t)
 (autoload 'el-get-checksum                      "el-get" "" t)
 
-(fmakunbound 'el-get-self-update)
+(when (fboundp 'el-get-self-update)
+  (fmakunbound 'el-get-self-update))
+
 (defun el-get-self-update (&rest ignore)
-  "Function disabled. Use epackage.el interface to fetch updates."
+  "Disabled. Use epackage.el interface to update el-get."
   (interactive)
   (message "el-get-self-update is disabled. Use epackage.el interface."))
 
-(provide 'el-get-epkg-install)
+(provide 'el-get-epackage-install)

@@ -1,8 +1,7 @@
-(provide 'el-get-epkg-0loaddefs)
-
+
 ;;;### (autoloads (el-get-checksum el-get-make-recipes el-get-cd
-;;;;;;  el-get-self-update el-get-update-all el-get-version) "el-get"
-;;;;;;  "el-get.el" (20191 6132))
+;;;;;;  el-get-self-update el-get-update-all el-get-version) "../el-get"
+;;;;;;  "../el-get.el" (20191 19775))
 ;;; Generated autoloads from el-get.el
 
 (autoload 'el-get-version "el-get" "\
@@ -12,11 +11,6 @@ Message the current el-get version
 
 (autoload 'el-get-update-all "el-get" "\
 Performs update of all installed packages.
-
-\(fn)" t nil)
-
-(autoload 'el-get-self-update "el-get" "\
-Update el-get itself.  The standard recipe takes care of reloading the code.
 
 \(fn)" t nil)
 
@@ -38,3 +32,13 @@ Compute the checksum of the given package, and put it in the kill-ring
 
 ;;;***
 
+;;;### (autoloads (el-get-list-packages) "el-get-list-packages"
+;;;;;;  "../el-get-list-packages.el" (20191 19775))
+;;; Generated autoloads from el-get-list-packages.el
+
+(autoload 'el-get-list-packages "el-get-list-packages" "\
+Display a list of packages.
+
+\(fn)" t nil)
+
+;;;***

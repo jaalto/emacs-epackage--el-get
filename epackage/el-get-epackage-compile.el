@@ -45,4 +45,4 @@
       (t
        (message "** Byte compile error. Not found: %s" file))))))
 
-(provide 'el-get-epkg-compile)
+(provide 'el-get-epackage-compile)
