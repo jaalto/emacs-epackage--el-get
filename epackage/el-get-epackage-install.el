@@ -5,7 +5,6 @@
 (autoload 'el-get-reload                        "el-get" "" t)
 (autoload 'el-get-update                        "el-get" "" t)
 (autoload 'el-get-update-all                    "el-get" "" t)
-;; (autoload 'el-get-self-update                   "el-get" "" t)
 (autoload 'el-get-remove                        "el-get" "" t)
 (autoload 'el-get-cd                            "el-get" "" t)
 (autoload 'el-get-make-recipes                  "el-get" "" t)
